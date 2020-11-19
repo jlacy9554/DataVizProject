@@ -10,5 +10,15 @@
 <body>
 <h1>Hello World</h1>
   <p>Text</p>
+  <div class="WinRate"></div>
+
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@ayrobin/league-of-legends-patch-notes-10-18-10-19/2.js?v=3";
+(new Runtime).module(define, name => {
+  if (name === "WinRate") return Inspector.into(".WinRate")();
+});
+</script>
 </body>
 </html>
