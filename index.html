@@ -14,7 +14,18 @@
   <p>Text</p>
   <h2>Title Test</h2>
   <div class="WinRate"></div>
+  
+  <h2>Title Test</h2>
+  <div class="PickRate"></div>
 
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@ayrobin/league-of-legends-patch-notes-10-18-10-19/2.js?v=3";
+(new Runtime).module(define, name => {
+  if (name === "PickRate") return Inspector.into(".PickRate")();
+});
+</script>
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
