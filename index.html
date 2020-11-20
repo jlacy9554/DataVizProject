@@ -14,7 +14,7 @@
    width: 50%;}
   div.maintext {
     margin: auto;
-    width: 65%;
+    width: 75%;
     height: 600px;
     border: 2px solid blue;
     padding: 10px;
@@ -75,24 +75,32 @@
   </div>
     
   <div id="Graph1" class="tabcontent">
-  <h2>Buffed & Nerfed Champion's Win Rate after the 10.19 Patch</h2>
+  <h2>Buffed & Nerfed Champion's Win Rate for Patch 10.18 & 10.19</h2>
   <div class="WinRate"></div>
   </div>
     
   <div id="Graph2" class="tabcontent">
-  <h2>Buffed & Nerfed Champion's Pick Rate after the 10.19 Patch</h2>
+  <h2>Buffed & Nerfed Champion's Pick Rate for Patch 10.18 & 10.19</h2>
   <div class="PickRate"></div>
   </div>
 
   <div id="Graph3" class="tabcontent">
-  <h2>Buffed & Nerfed Champion's Games Played after the 10.19 Patch</h2>
-  <div class="PickRate"></div>
+  <h2>Buffed & Nerfed Champion's Games Played for Patch 10.18 & 10.19</h2>
+  <div class="TotalGames"></div>
   </div> 
     
   </div><!--#kills the centering on the tabs stuff
   
 #javascript below
-  #G2-->
+  #G3-->
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@ayrobin/league-of-legends-patch-notes-10-18-10-19/2.js?v=3";
+(new Runtime).module(define, name => {
+  if (name === "TotalGames") return Inspector.into(".TotalGames")();
+});
+</script>  
+<!--#G2-->  
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/@ayrobin/league-of-legends-patch-notes-10-18-10-19/2.js?v=3";
