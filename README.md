@@ -8,7 +8,7 @@ Link to Webpage: https://jlacy9554.github.io/
 
 Link to Data Used: https://developer.riotgames.com/docs/lol
 
-Breakdown Reference: https://lolalytics.com/?tier=all&patch=10.19
+Data Breakdown Reference: https://lolalytics.com/?tier=all&patch=10.19
 
 Work Breakdown:
 
