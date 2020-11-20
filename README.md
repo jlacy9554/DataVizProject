@@ -16,8 +16,8 @@ Work Breakdown:
   - Wrote webpage introduction and graph descriptions/explanations
   
 - Josh Lacy:
-  - Helped with debugging code in observablehq
-  - Helped write graph descriptions
+  - Debugged and wrote D3.js code in observablehq
+  - Wrote graph descriptions/explanations
   - Made webpage
   
 - Devon Gilliard: Wrote webpage conclusion
