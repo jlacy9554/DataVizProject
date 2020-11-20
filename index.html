@@ -23,8 +23,11 @@
 <body>
 <h1>Are the expected outcomes of Riot: League of Legends’ champion statistics occurring for each gameplay patch implementation?</h1>
   <div class="tab">
-    <button class="tablinks" onclick="clickHandle(event,'maintext')">A</button>
+    <button class="tablinks" onclick="clickHandle(event,'info')">A</button>
+    <button class="tablinks" onclick="clickHandle(event,'Graph1')">A</button>
+    <button class="tablinks" onclick="clickHandle(event,'Graph2')">A</button>
   </div>
+  <div id="info" class="tabcontent">
   <div class="maintext">
   <p class="m">In Riot: League of Legends, there are 151 playable champions. 
     There are 5 champions picked for each team and 5 champions banned for each team. 
@@ -37,12 +40,17 @@
     These win-rates are reflective of their patch changes, pick-rates, and total games played. 
   </p>
   </div>
+  </div>
+    
+  <div id="Graph1" class="tabcontent">
   <h2>Buffed & Nerfed Champion's Win Rate after the 10.19 Patch</h2>
   <div class="WinRate"></div>
-  
+  </div>
+    
+  <div id="Graph2" class="tabcontent">
   <h2>Buffed & Nerfed Champion's Pick Rate after the 10.19 Patch</h2>
   <div class="PickRate"></div>
-
+  </div>
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
