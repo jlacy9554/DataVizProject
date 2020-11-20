@@ -54,7 +54,7 @@
   <div class="maintext">
     
   <div class="tab">
-    <button class="tablinks" onclick="openCity(event,'info')">Info</button>
+    <button class="tablinks" onclick="openCity(event,'info')" id="defaultOpen">Info</button>
     <button class="tablinks" onclick="openCity(event,'Graph1')">Graph 1</button>
     <button class="tablinks" onclick="openCity(event,'Graph2')">Graph 2</button>
     <button class="tablinks" onclick="openCity(event,'Graph3')">Graph 3</button>
@@ -140,6 +140,7 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+document.getElementById("defaultOpen").click();
 </script> 
  
 </body>
