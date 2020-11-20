@@ -2,7 +2,7 @@
 
 Group #: 3
 
-Group Members: Joshua Lacy, Alexander Robinson, Devon Gilliard
+Group Members: Joshua Lacy, Yates Robinson, Devon Gilliard
 
 Link to Webpage: https://jlacy9554.github.io/
 
@@ -16,5 +16,5 @@ Work Breakdown:
   
 - Josh Lacy:
 
-- Devon Gilliard: Conclusion
+- Devon Gilliard: Wrote website conclusion
 
