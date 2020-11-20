@@ -15,6 +15,9 @@ Work Breakdown:
   - Wrote website introduction and graph descriptions/explanations
   
 - Josh Lacy:
-
+  - Helped with debugging code in observablehq
+  - Helped write graph descriptions
+  - Made webpage
+  
 - Devon Gilliard: Wrote website conclusion
 
