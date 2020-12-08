@@ -120,7 +120,11 @@ Win-rate is the overall statistic to consider if the champion’s <span style = 
     
   <div id="Graph2" class="tabcontent">
   <h2>Buffed & Nerfed Champion's Pick Rate for Patch 10.18 & 10.19</h2>
-  <div class="PickRate"></div>
+  <div class="PickRate">  
+    <button id="start">Buff</button>
+  <button id="start1">Nerf</button>
+  <button id="reset">Reset</button>
+    </div>
     <p class="m">
         Pick-rate is an important statistic to consider as it also reflects the community’s opinion on if a character has increased in viability in the meta as it compares a specific champion’s pick-rate to all other champions in the game. 
       A champion experiencing a <span style = "color:blue;">buff</span> (blue bar) should see an increase in pick-rate from the previous patch (grey bar) while a <span style = "color:red;">nerf</span> (red bar) should cause a decrease in pick-rate. 
@@ -131,7 +135,11 @@ Win-rate is the overall statistic to consider if the champion’s <span style = 
 
   <div id="Graph3" class="tabcontent">
   <h2>Buffed & Nerfed Champion's Games Played for Patch 10.18 & 10.19</h2>
-  <div class="TotalGames"></div>
+  <div class="TotalGames">  
+    <button id="start2">Buff</button>
+  <button id="start3">Nerf</button>
+  <button id="reset1">Reset</button>
+    </div>
     <div class = "test">
       <p class="m">
         The total number of games played is an important factor regarding the players’ thoughts on the patch changes. 
@@ -167,7 +175,7 @@ Win-rate is the overall statistic to consider if the champion’s <span style = 
   #G3-->
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/@ayrobin/league-of-legends-patch-notes-10-18-10-19/2.js?v=3";
+import define from "https://api.observablehq.com/@ayrobin/league-of-legends-patch-notes-10-18-10-19.js?v=3";
 (new Runtime).module(define, name => {
   if (name === "TotalGames") return Inspector.into(".TotalGames")();
 });
@@ -175,7 +183,7 @@ import define from "https://api.observablehq.com/@ayrobin/league-of-legends-patc
 <!--#G2-->  
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/@ayrobin/league-of-legends-patch-notes-10-18-10-19/2.js?v=3";
+import define from "https://api.observablehq.com/@ayrobin/league-of-legends-patch-notes-10-18-10-19.js?v=3";
 (new Runtime).module(define, name => {
   if (name === "PickRate") return Inspector.into(".PickRate")();
 });
