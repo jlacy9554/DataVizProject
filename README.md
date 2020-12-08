@@ -10,6 +10,9 @@ Link to Data Used: https://developer.riotgames.com/docs/lol
 
 Data Breakdown Reference: https://lolalytics.com/?tier=all&patch=10.19
 
+Video: https://drive.google.com/file/d/1f5mEF9zeIGrV_52u-ioWcuEChGzuVcXX/view?usp=sharing
+The video was to large for github and wouldn't upload as an mp4 so I packed it into a zip.
+
 Work Breakdown:
 
 - Yates Robinson: 
